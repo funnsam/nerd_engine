@@ -1,0 +1,8 @@
+[package]
+name = "nerd_html"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nerd_dom = { path = "../nerd_dom" }
+parser_common = { path = "../parser_common" }

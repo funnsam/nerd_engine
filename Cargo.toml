@@ -1,0 +1,12 @@
+[workspace]
+members = ["nerd_dom", "nerd_html", "parser_common"]
+
+[package]
+name = "nerd_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nerd_dom = { path = "./nerd_dom" }
+nerd_html = { path = "./nerd_html" }
+parser_common = { path = "./parser_common" }
