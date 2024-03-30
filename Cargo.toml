@@ -1,5 +1,5 @@
 [workspace]
-members = ["nerd_dom", "nerd_html", "parser_common"]
+members = [ "nerd_css","nerd_dom", "nerd_html", "parser_common"]
 
 [package]
 name = "nerd_engine"

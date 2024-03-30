@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "nerd_css"
+version = "0.1.0"
+
+[[package]]
 name = "nerd_dom"
 version = "0.1.0"
 
