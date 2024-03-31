@@ -1,5 +1,5 @@
 [workspace]
-members = [ "nerd_css","nerd_dom", "nerd_html", "parser_common"]
+members = [ "nerd_css","nerd_dom", "nerd_html"]
 
 [package]
 name = "nerd_engine"
@@ -9,4 +9,3 @@ edition = "2021"
 [dependencies]
 nerd_dom = { path = "./nerd_dom" }
 nerd_html = { path = "./nerd_html" }
-parser_common = { path = "./parser_common" }
